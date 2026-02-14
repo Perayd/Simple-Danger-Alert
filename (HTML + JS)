@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Danger Alert Example</title>
+    <style>
+        .danger-alert {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            z-index: 9999;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0.6; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="danger-alert">
+    ⚠️ DANGER ALERT: Suspicious Activity Detected!
+</div>
+
+<h1>Website Content Here</h1>
+
+</body>
+</html>
